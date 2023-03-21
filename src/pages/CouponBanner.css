@@ -1,0 +1,162 @@
+@media screen and (min-width: 769px) {
+  .wrap {
+    width: 1440px;
+    height: 300px;
+    background-color: #2d2765;
+    background-image: url(@/assets/images/design04.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+  }
+
+  .person {
+    width: 336px;
+    height: 100%;
+    background-image: url(@/assets/images/design02.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: -8px;
+  }
+
+  .title {
+    width: 312px;
+    height: 172px;
+    background-image: url(@/assets/images/design03.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 35px;
+    opacity: 0.8;
+  }
+
+  .time {
+    width: 167px;
+    height: 23px;
+    float: right;
+    margin-right: 60px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+  }
+  .alertName {
+    font-size: 12px;
+  }
+  .item {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+  }
+
+  .rang {
+    width: 23px;
+    height: 23px;
+    text-align: center;
+    line-height: 23px;
+    font-size: 16px;
+    color: #000;
+    background-color: #d7d4fc;
+    margin-right: 6px;
+  }
+
+  .greeting {
+    width: 534px;
+    height: 150px;
+    background-image: url(@/assets/images/design05.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: right;
+    margin-right: 60px;
+  }
+  .slogan {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* 在这里添加你的 CSS 样式 */
+  .wrap {
+    width: 768px;
+    height: 817px;
+    background-color: #2d2765;
+    position: relative;
+    background-image: url(@/assets/images/design08.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .person {
+    background-image: url(@/assets/images/design06.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -30px;
+    right: 0;
+    width: 450px;
+    height: 750px;
+  }
+  .slogan {
+    position: absolute;
+    top: 80px;
+    left: 60px;
+    width: 426px;
+    height: 94px;
+    line-height: 47px;
+    font-size: 32px;
+    color: #ffffff;
+  }
+
+  .title {
+    width: 251px;
+    height: 224px;
+    background-image: url(@/assets/images/design07.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 200px;
+    left: 60px;
+  }
+
+  .time {
+    width: 239px;
+    height: 45px;
+    float: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+    position: absolute;
+    top: 470px;
+    left: 60px;
+  }
+  .alertName {
+    font-size: 18px;
+  }
+  .item {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+  }
+
+  .rang {
+    width: 30px;
+    height: 33px;
+    text-align: center;
+    line-height: 33px;
+    font-size: 24px;
+    color: #000;
+    background-color: #d7d4fc;
+    margin-right: 6px;
+  }
+
+  .greeting {
+    width: 648px;
+    height: 204px;
+    background-image: url(@/assets/images/design09.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 60px;
+    top: 550px;
+  }
+}
